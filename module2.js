@@ -8,6 +8,10 @@ class myClass {
     };
 };
 
+export default function() {
+    console.log("This is from the default function");
+};
+
 export {
     message,
     getName,
