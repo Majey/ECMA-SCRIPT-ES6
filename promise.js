@@ -8,7 +8,7 @@ let p = new Promise((resolve, reject) => {
     };
 })
 
-p.then((message) => console.log(message))
+p.then((message) => console.log(message)) //you can do chaining with several ".then(s)"
 .catch((message) => console.log(message));
 p.finally(() => console.log("Promise Tutoral"));
 
